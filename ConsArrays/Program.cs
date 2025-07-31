@@ -23,7 +23,15 @@ namespace ConsArrays
         public static void Q911()
         {
             //כתבו את הפתרון שלכם כאן
-
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Nothing to see here at === Q911 === till you write your code");
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine(string.Concat("תמחקו את הקוד הזה ותכתבו את הפתרון שלכם במקומו".Reverse()));
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine(string.Concat("إحذفوا هذا الكود واكتبوا حلكم مكانه".Reverse()));
+            Console.WriteLine("Delete this code and put in yours");
+            Console.ForegroundColor = ConsoleColor.White;
         }
 
 
@@ -43,6 +51,7 @@ namespace ConsArrays
         public static void Q912()
         {
             //כתבו את הפתרון שלכם כאן
+            Console.WriteLine("Nothing to see here at Q912 till you write your code");
 
         }
 
@@ -66,7 +75,7 @@ namespace ConsArrays
 
         static void Main(string[] args)
         {
-            Q912(); // באפשרותכם להריץ את השאלות ולבדוק גם באופן ידני
+            Q911(); // באפשרותכם להריץ את השאלות ולבדוק גם באופן ידני
         }
     }
 }
